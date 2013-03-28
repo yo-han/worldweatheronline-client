@@ -1,0 +1,227 @@
+TWorldWeatherOnline
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.pth WorldWeatherOnline/WorldWeatherOnline-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.pth WorldWeatherOnline/WorldWeatherOnline-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.o /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.o /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a normal armv7s
+cLibtool /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a normal armv7
+cCreateUniversalBinary /Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.a normal "armv7 armv7s"
+cPBXCp WorldWeatherOnline/WorldWeatherOnline.h build/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c000000005142F8D30000000000000110
+t1363343571
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000511252BB000000000062AD10
+t1360155323
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000511252BA00000000000015F7
+t1360155322
+s5623
+
+N/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m
+c000000005154C1EA0000000000000198
+t1364509162
+s408
+
+N/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline-Prefix.pch
+c0000000051544FE200000000000000B1
+t1364479970
+s177
+i<Foundation/Foundation.h>
+
+N/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.h
+c000000005154CE0D00000000000002FD
+t1364512269
+s765
+
+N/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m
+c000000005154CF660000000000000FF0
+t1364512614
+s4080
+
+N/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.h
+t1364512275
+s765
+
+N/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.a
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.o
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.LinkFileList
+c000000005154CF6C00000000000000A4
+t1364512620
+s164
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.o
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.o
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.LinkFileList
+c000000005154CF6C00000000000000A5
+t1364512620
+s165
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.o
+t2
+s0
+
+N/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a
+t2
+s0
+
+N/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8e5aa9ec0605b741^779fafec0605b741^---0#1#0#--18"Check dependencies36"52B99E73-438A-4A5F-BA62-A856BFB32CCE-
+
+CCompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.o /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386202028.503527
+e386202028.566837
+r1
+xCompileC
+xbuild/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.o
+x/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m240a81acf904b741^2e1b91acf904b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m0000000000000000^3731"CompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.o WorldWeatherOnline/LocalWeather.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johan/Documents/worldweatheronline-client    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-generated-files.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-own-target-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-all-target-headers.hmap -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-project-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources/armv7 -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources -F/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch -MMD -MT dependencies -MF /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.d --serialize-diagnostics /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.dia -c /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m -o /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/LocalWeather.o36"2732C6B8-6988-4E60-9E69-6F2EB85EE40F-
+
+CCompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.o /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386205420.916450
+e386205420.999791
+r1
+xCompileC
+xbuild/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.o
+x/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m80b9eaec0605b741^c90000ed0605b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m0000000000000000^3767"CompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.o WorldWeatherOnline/WorldWeatherOnline.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johan/Documents/worldweatheronline-client    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-generated-files.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-own-target-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-all-target-headers.hmap -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-project-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources/armv7 -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources -F/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch -MMD -MT dependencies -MF /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.d --serialize-diagnostics /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.dia -c /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m -o /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.o36"1B2B79C2-F9ED-42CF-B03F-53C64D321B56-
+
+CCompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.o /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386202028.512982
+e386202028.566555
+r1
+xCompileC
+xbuild/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.o
+x/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.mfb9483acf904b741^cb0e91acf904b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m0000000000000000^3738"CompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.o WorldWeatherOnline/LocalWeather.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johan/Documents/worldweatheronline-client    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-generated-files.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-own-target-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-all-target-headers.hmap -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-project-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources/armv7s -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources -F/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch -MMD -MT dependencies -MF /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.d --serialize-diagnostics /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.dia -c /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/LocalWeather.m -o /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/LocalWeather.o36"297DBAEB-A4B3-41E8-AFC2-A6D873768BAC-
+
+CCompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.o /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386205420.911227
+e386205420.994789
+r1
+xCompileC
+xbuild/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.o
+x/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m2367e9ec0605b741^edb7feec0605b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m0000000000000000^3774"CompileC build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.o WorldWeatherOnline/WorldWeatherOnline.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johan/Documents/worldweatheronline-client    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-generated-files.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-own-target-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-all-target-headers.hmap -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-project-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources/armv7s -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources -F/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch -MMD -MT dependencies -MF /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.d --serialize-diagnostics /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.dia -c /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.m -o /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.o36"8E26D6F3-C0AA-406F-BCE2-74BB4B15F8A3-
+
+CCreateUniversalBinary /Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.a normal "armv7 armv7s"
+s386205421.049075
+e386205421.057901
+r1
+xCreateUniversalBinary
+x/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.a
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Create universal binary /Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.ae9b60ced0605b741^7cd10eed0605b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.a000000000080d041^804"CreateUniversalBinary build/Release-iphoneos/libWorldWeatherOnline.a normal "armv7 armv7s"    cd /Users/johan/Documents/worldweatheronline-client    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    libtool -static /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a -o /Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/libWorldWeatherOnline.a36"583EEDD0-47A3-4C07-B9EF-2B299C7B611C-
+
+CLibtool /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a normal armv7
+s386205421.006283
+e386205421.042106
+r1
+xLibtool
+x/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Libtool build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a normal armv723bc01ed0605b741^7f120bed0605b741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1135"Libtool build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a normal armv7    cd /Users/johan/Documents/worldweatheronline-client    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos -filelist /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/WorldWeatherOnline.LinkFileList -ObjC -framework Foundation -o /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7/libWorldWeatherOnline.a36"8414C3FF-C995-445F-BFFB-BBD921AACF97-
+
+CLibtool /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a normal armv7s
+s386205421.001138
+e386205421.020489
+r1
+xLibtool
+x/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a
+xnormal
+xarmv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Libtool build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a normal armv7s247f00ed0605b741^335405ed0605b741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1140"Libtool build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a normal armv7s    cd /Users/johan/Documents/worldweatheronline-client    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos -filelist /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/WorldWeatherOnline.LinkFileList -ObjC -framework Foundation -o /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/Objects-normal/armv7s/libWorldWeatherOnline.a36"A6E049E2-9FCE-4CB8-84D1-135A6A679C72-
+
+CPBXCp WorldWeatherOnline/WorldWeatherOnline.h build/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.h
+s386205075.277287
+e386205075.280705
+r1
+xPBXCp
+xWorldWeatherOnline/WorldWeatherOnline.h
+xbuild/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.hd82c47930505b741^c0e747930505b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.h0000000000000000^802"PBXCp WorldWeatherOnline/WorldWeatherOnline.h build/Release-iphoneos/include/WorldWeatherOnline/WorldWeatherOnline.h    cd /Users/johan/Documents/worldweatheronline-client    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline.h /Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include/WorldWeatherOnline36"48187791-C014-4C37-9DE4-BAC98DC2BBC9-
+
+CProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.pth WorldWeatherOnline/WorldWeatherOnline-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386205420.691215
+e386205420.904892
+r1
+xProcessPCH
+x/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.pth
+xWorldWeatherOnline/WorldWeatherOnline-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile WorldWeatherOnline/WorldWeatherOnline-Prefix.pch6825b1ec0605b741^3ca5e7ec0605b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline-Prefix.pch0000000000000000^3724"ProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.pth WorldWeatherOnline/WorldWeatherOnline-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johan/Documents/worldweatheronline-client    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-generated-files.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-own-target-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-all-target-headers.hmap -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-project-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources/armv7s -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources -F/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos --serialize-diagnostics /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.dia -c /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline-Prefix.pch -o /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-gfxtyzmuuodlzzeiqnkhqlcwuiot/WorldWeatherOnline-Prefix.pch.d36"B1171676-DD10-48EE-8AD2-265A7647C8F7-
+
+CProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.pth WorldWeatherOnline/WorldWeatherOnline-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s386205420.691192
+e386205420.910045
+r1
+xProcessPCH
+x/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.pth
+xWorldWeatherOnline/WorldWeatherOnline-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile WorldWeatherOnline/WorldWeatherOnline-Prefix.pch3d27b1ec0605b741^fdf7e8ec0605b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline-Prefix.pch0000000000000000^3721"ProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.pth WorldWeatherOnline/WorldWeatherOnline-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johan/Documents/worldweatheronline-client    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-generated-files.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-own-target-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-all-target-headers.hmap -iquote /Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/WorldWeatherOnline-project-headers.hmap -I/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources/armv7 -I/Users/johan/Documents/worldweatheronline-client/build/WorldWeatherOnline.build/Release-iphoneos/WorldWeatherOnline.build/DerivedSources -F/Users/johan/Documents/worldweatheronline-client/build/Release-iphoneos --serialize-diagnostics /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.dia -c /Users/johan/Documents/worldweatheronline-client/WorldWeatherOnline/WorldWeatherOnline-Prefix.pch -o /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.Xcode.0/SharedPrecompiledHeaders/WorldWeatherOnline-Prefix-hlcvbbqdnihgcmgjetksafqrcxuk/WorldWeatherOnline-Prefix.pch.d36"DC7CC27D-F6DC-48F2-AFC8-1E195EB6BFB5-
+
