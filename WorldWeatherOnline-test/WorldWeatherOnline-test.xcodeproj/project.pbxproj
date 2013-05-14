@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A085901742D05D00DA2E2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A0858F1742D05D00DA2E2F /* UIKit.framework */; };
+		04A085921742D05D00DA2E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A085911742D05D00DA2E2F /* Foundation.framework */; };
+		04A085941742D05D00DA2E2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A085931742D05D00DA2E2F /* CoreGraphics.framework */; };
+		04A0859A1742D05D00DA2E2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A085981742D05D00DA2E2F /* InfoPlist.strings */; };
+		04A0859C1742D05D00DA2E2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0859B1742D05D00DA2E2F /* main.m */; };
+		04A085A01742D05D00DA2E2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A0859F1742D05D00DA2E2F /* AppDelegate.m */; };
+		04A085A21742D05D00DA2E2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A085A11742D05D00DA2E2F /* Default.png */; };
+		04A085A41742D05D00DA2E2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A085A31742D05D00DA2E2F /* Default@2x.png */; };
+		04A085A61742D05D00DA2E2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A085A51742D05D00DA2E2F /* Default-568h@2x.png */; };
+		04A085A91742D05D00DA2E2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A085A81742D05D00DA2E2F /* ViewController.m */; };
+		04A085AC1742D05D00DA2E2F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A085AA1742D05D00DA2E2F /* ViewController.xib */; };
+		04A085B51742D19200DA2E2F /* WorldWeatherOnline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A085B41742D19200DA2E2F /* WorldWeatherOnline.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A0858C1742D05D00DA2E2F /* WorldWeatherOnline-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorldWeatherOnline-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A0858F1742D05D00DA2E2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04A085911742D05D00DA2E2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04A085931742D05D00DA2E2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04A085971742D05D00DA2E2F /* WorldWeatherOnline-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WorldWeatherOnline-test-Info.plist"; sourceTree = "<group>"; };
+		04A085991742D05D00DA2E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04A0859B1742D05D00DA2E2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A0859D1742D05D00DA2E2F /* WorldWeatherOnline-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorldWeatherOnline-test-Prefix.pch"; sourceTree = "<group>"; };
+		04A0859E1742D05D00DA2E2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A0859F1742D05D00DA2E2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A085A11742D05D00DA2E2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04A085A31742D05D00DA2E2F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		04A085A51742D05D00DA2E2F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04A085A71742D05D00DA2E2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A085A81742D05D00DA2E2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A085AB1742D05D00DA2E2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		04A085B41742D19200DA2E2F /* WorldWeatherOnline.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = WorldWeatherOnline.a; path = ../build/WorldWeatherOnline.a; sourceTree = "<group>"; };
+		04A085B61742D1BA00DA2E2F /* WorldWeatherOnline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WorldWeatherOnline.h; path = ../WorldWeatherOnline/WorldWeatherOnline.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A085891742D05D00DA2E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A085901742D05D00DA2E2F /* UIKit.framework in Frameworks */,
+				04A085921742D05D00DA2E2F /* Foundation.framework in Frameworks */,
+				04A085941742D05D00DA2E2F /* CoreGraphics.framework in Frameworks */,
+				04A085B51742D19200DA2E2F /* WorldWeatherOnline.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A085831742D05D00DA2E2F = {
+			isa = PBXGroup;
+			children = (
+				04A085951742D05D00DA2E2F /* WorldWeatherOnline-test */,
+				04A0858E1742D05D00DA2E2F /* Frameworks */,
+				04A0858D1742D05D00DA2E2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A0858D1742D05D00DA2E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A0858C1742D05D00DA2E2F /* WorldWeatherOnline-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A0858E1742D05D00DA2E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A085B61742D1BA00DA2E2F /* WorldWeatherOnline.h */,
+				04A085B41742D19200DA2E2F /* WorldWeatherOnline.a */,
+				04A0858F1742D05D00DA2E2F /* UIKit.framework */,
+				04A085911742D05D00DA2E2F /* Foundation.framework */,
+				04A085931742D05D00DA2E2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A085951742D05D00DA2E2F /* WorldWeatherOnline-test */ = {
+			isa = PBXGroup;
+			children = (
+				04A0859E1742D05D00DA2E2F /* AppDelegate.h */,
+				04A0859F1742D05D00DA2E2F /* AppDelegate.m */,
+				04A085A71742D05D00DA2E2F /* ViewController.h */,
+				04A085A81742D05D00DA2E2F /* ViewController.m */,
+				04A085AA1742D05D00DA2E2F /* ViewController.xib */,
+				04A085961742D05D00DA2E2F /* Supporting Files */,
+			);
+			path = "WorldWeatherOnline-test";
+			sourceTree = "<group>";
+		};
+		04A085961742D05D00DA2E2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A085971742D05D00DA2E2F /* WorldWeatherOnline-test-Info.plist */,
+				04A085981742D05D00DA2E2F /* InfoPlist.strings */,
+				04A0859B1742D05D00DA2E2F /* main.m */,
+				04A0859D1742D05D00DA2E2F /* WorldWeatherOnline-test-Prefix.pch */,
+				04A085A11742D05D00DA2E2F /* Default.png */,
+				04A085A31742D05D00DA2E2F /* Default@2x.png */,
+				04A085A51742D05D00DA2E2F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A0858B1742D05D00DA2E2F /* WorldWeatherOnline-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A085AF1742D05D00DA2E2F /* Build configuration list for PBXNativeTarget "WorldWeatherOnline-test" */;
+			buildPhases = (
+				04A085881742D05D00DA2E2F /* Sources */,
+				04A085891742D05D00DA2E2F /* Frameworks */,
+				04A0858A1742D05D00DA2E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorldWeatherOnline-test";
+			productName = "WorldWeatherOnline-test";
+			productReference = 04A0858C1742D05D00DA2E2F /* WorldWeatherOnline-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A085841742D05D00DA2E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yo-han";
+			};
+			buildConfigurationList = 04A085871742D05D00DA2E2F /* Build configuration list for PBXProject "WorldWeatherOnline-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04A085831742D05D00DA2E2F;
+			productRefGroup = 04A0858D1742D05D00DA2E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A0858B1742D05D00DA2E2F /* WorldWeatherOnline-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A0858A1742D05D00DA2E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A0859A1742D05D00DA2E2F /* InfoPlist.strings in Resources */,
+				04A085A21742D05D00DA2E2F /* Default.png in Resources */,
+				04A085A41742D05D00DA2E2F /* Default@2x.png in Resources */,
+				04A085A61742D05D00DA2E2F /* Default-568h@2x.png in Resources */,
+				04A085AC1742D05D00DA2E2F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A085881742D05D00DA2E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A0859C1742D05D00DA2E2F /* main.m in Sources */,
+				04A085A01742D05D00DA2E2F /* AppDelegate.m in Sources */,
+				04A085A91742D05D00DA2E2F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A085981742D05D00DA2E2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A085991742D05D00DA2E2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04A085AA1742D05D00DA2E2F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A085AB1742D05D00DA2E2F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A085AD1742D05D00DA2E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A085AE1742D05D00DA2E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A085B01742D05D00DA2E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldWeatherOnline-test/WorldWeatherOnline-test-Prefix.pch";
+				INFOPLIST_FILE = "WorldWeatherOnline-test/WorldWeatherOnline-test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/WorldWeatherOnline-test\"",
+					"\"$(SRCROOT)/../build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04A085B11742D05D00DA2E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorldWeatherOnline-test/WorldWeatherOnline-test-Prefix.pch";
+				INFOPLIST_FILE = "WorldWeatherOnline-test/WorldWeatherOnline-test-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/WorldWeatherOnline-test\"",
+					"\"$(SRCROOT)/../build\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A085871742D05D00DA2E2F /* Build configuration list for PBXProject "WorldWeatherOnline-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A085AD1742D05D00DA2E2F /* Debug */,
+				04A085AE1742D05D00DA2E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A085AF1742D05D00DA2E2F /* Build configuration list for PBXNativeTarget "WorldWeatherOnline-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A085B01742D05D00DA2E2F /* Debug */,
+				04A085B11742D05D00DA2E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A085841742D05D00DA2E2F /* Project object */;
+}

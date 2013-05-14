@@ -9,6 +9,7 @@
 #import "WorldWeatherOnline.h"
 
 #define WWOLocalWeatherUrl @"http://api.worldweatheronline.com/free/v1/weather.ashx"
+#define WWOMarineWeatherUrl @"http://api.worldweatheronline.com/free/v1/marine.ashx"
 #define WWOSearchUrl @"http://api.worldweatheronline.com/free/v1/search.ashx"
 
 @interface WorldWeatherOnline()
@@ -81,6 +82,20 @@
     _date = date;
     
     [self getWeather:searchString];
+}
+
+- (void) getMarineWeather:(NSString *)lat lng:(NSString *)lng {
+    
+    NSString *parameters = [NSString stringWithFormat:@"&q=%@%%2C%@", lat, lng];
+    
+    NSDictionary *result = [self callAPI:WWOMarineWeatherUrl params:parameters];
+    NSDictionary *responseData = [result objectForKey:@"data"];
+    
+    if([responseData objectForKey:@"error"] != nil) {
+        [self requestFailed:[responseData objectForKey:@"error"]];
+    } else {
+        [self requestSucces:responseData];
+    }
 }
 
 - (void) searchLocation:(NSString *)location {

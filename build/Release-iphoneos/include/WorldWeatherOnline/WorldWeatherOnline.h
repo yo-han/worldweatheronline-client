@@ -15,6 +15,7 @@
 - (id) initWithApiKey:(NSString *)key;
 - (void) getWeather:(NSString *)searchString;
 - (void) getWeatherForDate:(NSString *)searchString date:(NSString *)date;
+- (void) getMarineWeather:(NSString *)lat lng:(NSString *)lng;
 - (void) searchLocation:(NSString *)location;
 
 - (void) setNumberOfDays:(NSString *)numberOfDays;
