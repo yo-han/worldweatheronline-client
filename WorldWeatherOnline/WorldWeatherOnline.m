@@ -10,6 +10,7 @@
 
 #define WWOLocalWeatherUrl @"http://api.worldweatheronline.com/free/v1/weather.ashx"
 #define WWOMarineWeatherUrl @"http://api.worldweatheronline.com/free/v1/marine.ashx"
+#define WWOMarineWeatherPremiumUrl @"http://api.worldweatheronline.com/premium/v1/marine.ashx"
 #define WWOSearchUrl @"http://api.worldweatheronline.com/free/v1/search.ashx"
 
 @interface WorldWeatherOnline()
@@ -84,11 +85,13 @@
     [self getWeather:searchString];
 }
 
-- (void) getMarineWeather:(NSString *)lat lng:(NSString *)lng {
+- (void) getMarineWeather:(NSString *)lat lng:(NSString *)lng premium:(BOOL)premium {
     
     NSString *parameters = [NSString stringWithFormat:@"&q=%@%%2C%@", lat, lng];
     
-    NSDictionary *result = [self callAPI:WWOMarineWeatherUrl params:parameters];
+    NSString *url = (premium == YES) ? WWOMarineWeatherPremiumUrl : WWOMarineWeatherUrl;
+    
+    NSDictionary *result = [self callAPI:url params:parameters];
     NSDictionary *responseData = [result objectForKey:@"data"];
     
     if([responseData objectForKey:@"error"] != nil) {
